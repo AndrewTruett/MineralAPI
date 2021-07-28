@@ -1,0 +1,30 @@
+{
+  "name": "MineralAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewTruett/MineralAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewTruett/MineralAPI/issues"
+  },
+  "homepage": "https://github.com/AndrewTruett/MineralAPI#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
